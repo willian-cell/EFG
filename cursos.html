@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cursos - EWBO</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../willian efg web/node_modules/bootstrap/dist/css/styles.css">
+
+    <style>
+        .curso-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 10px auto;
+            display: block;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Sombra forte */
+            transition: transform 0.3s;
+        }
+
+        .curso-icon:hover {
+            transform: scale(1.1);
+        }
+
+        
+        .card {
+            margin: 20px 0;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8); /* Sombra forte */
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EFG-ETD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="cadastro_aluno.html">Cadastro do aluno</a></li>
+                    <li class="nav-item"><a class="nav-link" href="professores.html">Professores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://efg.org.br/">Escola</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-4 bg-light-custom">
+        <div class="container">
+            <h1 class="display-4 text-primary">EFG-ETD</h1>
+            <p class="lead text-muted">Escola Técnica de Desenvolvedores</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Cursos Oferecidos</h2>
+        <p class="text-center">Explore os cursos e suas informações detalhadas.</p>
+
+        <div class="row">
+            <!-- Card Desenvolvimento Web -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/web.jpeg" class="curso-icon" alt="Desenvolvimento Web" >
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Desenvolvimento Web</h5>
+                        <a class="nav-link btn btn-primary" href="cadastro_aluno.html">Cadastre-se</a>
+                        <p class="card-text">
+                            <strong>Duração:</strong> 1 ano <br>
+                            <strong>Habilidades:</strong> HTML, CSS, JavaScript, Frameworks Web <br>
+                            <strong>Área de Trabalho:</strong> Empresas de TI e agências digitais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Desenvolvimento Mobile -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/mobile.jpeg" class="curso-icon" alt="Desenvolvimento Mobile">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Desenvolvimento Mobile</h5>
+                        <a class="nav-link btn btn-primary" href="cadastro_aluno.html">Cadastre-se</a>
+                        <p class="card-text">
+                            <strong>Duração:</strong> 1 ano e meio <br>
+                            <strong>Habilidades:</strong> Kotlin, Swift, React Native <br>
+                            <strong>Área de Trabalho:</strong> Startups e empresas de aplicativos.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Ciência de Dados -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/cienciaDados.jpeg" class="curso-icon" alt="Ciência de Dados">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Ciência de Dados</h5>
+                        <a class="nav-link btn btn-primary" href="cadastro_aluno.html">Cadastre-se</a>
+                        <p class="card-text">
+                            <strong>Duração:</strong> 2 anos <br>
+                            <strong>Habilidades:</strong> Python, Machine Learning, Big Data <br>
+                            <strong>Área de Trabalho:</strong> Bancos, fintechs e empresas de tecnologia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Logica de Programação -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/c.jpeg" class="curso-icon" alt="Logica de Programação">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Lógica de Programação</h5>
+                        <a class="nav-link btn btn-primary" href="cadastro_aluno.html">Cadastre-se</a>
+                        <p class="card-text">
+                            <strong>Duração:</strong> 6 meses <br>
+                            <strong>Habilidades:</strong> C++, C#, Python <br>
+                            <strong>Área de Trabalho:</strong> Empresas de banco de dados estáticos ou Percistentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Python intermediário -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/python.jpg" class="curso-icon" alt="Python1">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Python Intermediário</h5>
+                        <a class="nav-link btn btn-primary" href="cadastro_aluno.html">Cadastre-se</a>
+                        <p class="card-text">
+                            <strong>Duração:</strong> 6 meses <br>
+                            <strong>Habilidades:</strong> Python, SQLite3, PySimpleGUI <br>
+                            <strong>Área de Trabalho:</strong> Empresas de banco de dados estáticos ou Percistentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card Logica de Programação -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Python2.jpeg" class="curso-icon" alt="Python2">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Python Avançado</h5>
+                        <a class="nav-link btn btn-primary" href="cadastro_aluno.html">Cadastre-se</a>
+                        <p class="card-text">
+                            <strong>Duração:</strong> 6 meses <br>
+                            <strong>Habilidades:</strong> Python, Custom TKinter, Matplotlibe <br>
+                            <strong>Área de Trabalho:</strong> Grande Empresas de Banco, e muitas outras do ramo da tecnologia de dados Estatisticos ou análises preditivas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="bg-light-custom text-center py-4">
+        <div class="container">
+            <h2 class="mb-2 text-primary">Escola do Futuro - Santo Antônio do Descoberto, GO</h2>
+            <p class="text-muted">Professor: Fillipe Silva (Técnico em Desenvolvimento Web e Mobile)</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+</body>
+</html>

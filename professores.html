@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Professores - EWBO</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../willian efg web/node_modules/bootstrap/dist/css/styles.css">
+
+    <style>
+        .professor-icon, .diretor-icon {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+
+        }
+
+        .professor-icon:hover, .diretor-icon:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EFG-ETD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="cadastro_aluno.html">Cadastro do aluno</a></li>
+                    <li class="nav-item"><a class="nav-link" href="professores.html">Professores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://efg.org.br/">Escola</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-4 bg-light-custom">
+        <div class="container">
+            <h1 class="display-4 text-primary">EFG-ETD</h1>
+            <p class="lead text-muted">Escola Técnica de Desenvolvedores</p>
+        </div>
+    </header>
+
+    <!-- Professores -->
+    <div class="container mt-5">
+        <h2>Professores</h2>
+        <p>Conheça os professores da nossa escola técnica.</p>
+        <div class="d-flex justify-content-around flex-wrap">
+            <img src="img/thayla.jpeg" class="professor-icon" alt="Thayla" data-toggle="modal" data-target="#modalThayla">
+            <img src="img/tamires.jpeg" class="professor-icon" alt="Tamires" data-toggle="modal" data-target="#modalTamires">
+            <img src="img/eupidio.jpeg" class="professor-icon" alt="Eupidio" data-toggle="modal" data-target="#modalEupidio">
+            <img src="img/filipe.jpeg" class="professor-icon" alt="Filipe" data-toggle="modal" data-target="#modalFilipe">
+            <img src="img/willian.jpeg" class="professor-icon" alt="Willian" data-toggle="modal" data-target="#modalWillian">
+            <img src="img/fulano.jpeg" class="professor-icon" alt="Fulano" data-toggle="modal" data-target="#modalFulano">
+        </div>
+    </div>
+
+    <!-- Modais de Professores -->
+    <div class="modal fade" id="modalThayla" tabindex="-1" aria-labelledby="modalThaylaLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalThaylaLabel">Thayla - Lógica de Programação</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">Experiência em lógica de programação e metodologias ágeis.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diretores -->
+    <div class="container mt-5">
+        <h2>Diretores</h2>
+        <p>Conheça os Diretores da nossa escola técnica.</p>
+        <div class="d-flex justify-content-around">
+            <img src="img/diretora.jpeg" class="diretor-icon" alt="Diretora" data-toggle="modal" data-target="#modalDiretora">
+        </div>
+    </div>
+
+    <!-- Modal de Diretora -->
+    <div class="modal fade" id="modalDiretora" tabindex="-1" aria-labelledby="modalDiretoraLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalDiretoraLabel">Diretora</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">Especialista em gestão educacional e desenvolvimento de programas inovadores.</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light-custom text-center py-4">
+        <div class="container">
+            <h2 class="mb-2 text-primary">Escola do Futuro - Santo Antônio do Descoberto, GO</h2>
+            <p class="text-muted">Professor: Fillipe Silva (Técnico em Desenvolvimento Web e Mobile)</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+</body>
+</html>

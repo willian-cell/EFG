@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EWBO - Escola Técnica de Desenvolvedores</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../willian efg web/node_modules/bootstrap/dist/css/styles.css"> <!-- CSS personalizado -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EFG-ETD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="cadastro_aluno.html">Cadastro do aluno</a></li>
+                    <li class="nav-item"><a class="nav-link" href="professores.html">Professores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://efg.org.br/">Escola</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="text-center py-4 bg-light-custom">
+        <div id="cabeçalho" class="container">
+            <h1 class="display-4 text-primary">EFG-ETD</h1>
+            <p class="lead text-muted">Escola Técnica de Desenvolvedores</p>
+        </div>
+    </header>
+
+    <!-- Carrossel de Professores -->
+    <div class="container my-4">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/thayla.jpeg" class="card-img-top img-thumbnail shadow" alt="Thayla">
+                                <div class="card-body">
+                                    <h5 class="card-title">Thayla</h5>
+                                    <p class="card-text">Professora de Lógica de Programação</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/tamires.jpeg" class="card-img-top img-thumbnail shadow" alt="Tamires">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tamires</h5>
+                                    <p class="card-text">Professora de Python</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/eupidio.jpeg" class="card-img-top img-thumbnail shadow" alt="Euphidio">
+                                <div class="card-body">
+                                    <h5 class="card-title">Euphidio</h5>
+                                    <p class="card-text">Professor de Ciência de Dados</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/filipe.jpeg" class="card-img-top img-thumbnail shadow" alt="Filipe">
+                                <div class="card-body">
+                                    <h5 class="card-title">Filipe</h5>
+                                    <p class="card-text">Professor de Web e Mobile</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/willian.jpeg" class="card-img-top img-thumbnail shadow" alt="Willian">
+                                <div class="card-body">
+                                    <h5 class="card-title">Willian</h5>
+                                    <p class="card-text">Professor de Sistemas Mobile</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="img/fulano.jpeg" class="card-img-top img-thumbnail shadow" alt="Fulano">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fulano</h5>
+                                    <p class="card-text">Professor de Marketing</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles do Carrossel -->
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light-custom text-center py-4 mt-5">
+        <div class="container">
+            <h2 class="mb-2 text-primary">Escola do Futuro - Santo Antônio do Descoberto, GO</h2>
+            <p class="text-muted">Professor: Fillipe Silva (Técnico em Desenvolvimento Web e Mobile)</p>
+        </div>
+    </footer>
+</body>
+</html>

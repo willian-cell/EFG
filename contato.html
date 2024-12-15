@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato - EWBO</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../willian efg web/node_modules/bootstrap/dist/css/styles.css">
+
+    <style>
+        .contact-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 10px auto;
+            display: block;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+            transition: transform 0.3s;
+        }
+
+        .card {
+            margin: 20px 0;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.8);
+        }
+
+        .card-body a {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        .card-body a:hover {
+            text-decoration: underline;
+        }
+
+        
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">EFG-ETD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="cadastro_aluno.html">Cadastro do aluno</a></li>
+                    <li class="nav-item"><a class="nav-link" href="professores.html">Professores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://efg.org.br/">Escola</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center py-4 bg-light-custom">
+        <div class="container">
+            <h1 class="display-4 text-primary">Contato - EFG</h1>
+            <p class="lead text-muted">Entre em contato com a Escola Técnica de Desenvolvedores</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Informações de Contato</h2>
+
+        <div class="row">
+            <!-- Telefone -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="img/telefone.jpeg" class="contact-icon" alt="Telefone">
+                    <div class="card-body">
+                        <h5 class="card-title">Telefone</h5>
+                        <p class="card-text">
+                            <strong>Secretaria:</strong> (62) 1234-5678 <br>
+                            <strong>Coordenação:</strong> (62) 8765-4321
+                        </p>
+                        <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">Acessar Watzap</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="img/email.jpeg" class="contact-icon" alt="Email">
+                    <div class="card-body">
+                        <h5 class="card-title">Email</h5>
+                        <p class="card-text">
+                            <strong>Secretaria:</strong> secretaria@efg.org.br <br>
+                            <strong>Coordenação:</strong> coordenacao@efg.org.br
+                        </p>
+                        <a href="https://www.google.com/intl/pt-BR/gmail/about/" target="_blank">Acessar Gmail</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Localização -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="img/localizacao.jpeg" class="contact-icon" alt="Localização">
+                    <div class="card-body">
+                        <h5 class="card-title">Endereço</h5>
+                        <p class="card-text">
+                            <strong>Escola do Futuro:</strong> Rua Exemplo, 123 <br>
+                            Santo Antônio do Descoberto, GO
+                        </p>
+                        <a href="https://www.google.com/maps/place/Escola+do+Futuro+de+Goi%C3%A1s+a+Sarah+Lu%C3%ADsa+Lemos+Kubitschek+de+Oliveira+(EFG+SLLKO)/@-15.9455554,-48.2642886,17z/data=!3m1!4b1!4m6!3m5!1s0x935bdb7f032fc633:0x9549dbd6bf7b453c!8m2!3d-15.9455554!4d-48.2617137!16s%2Fg%2F11t6psz8nf?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+                            Ver no Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <h4>Horário de Funcionamento</h4>
+            <p>Segunda a Sexta: 08:00 - 18:00</p>
+            <p>Sábado: 08:00 - 12:00</p>
+        </div>
+    </div>
+
+    <footer class="bg-light-custom text-center py-4">
+        <div class="container">
+            <h2 class="mb-2 text-primary">Escola do Futuro - Santo Antônio do Descoberto, GO</h2>
+            <p class="text-muted">Professor: Fillipe Silva (Técnico em Desenvolvimento Web e Mobile)</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+</body>
+</html>
